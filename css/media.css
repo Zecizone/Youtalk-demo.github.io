@@ -1,0 +1,299 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: calc (100% - 10px);
+    }  
+    .nav__btn-link {
+        margin-left: 20px;
+    }
+    .logo {
+        margin-right: 32px;
+    }
+    .menu__list {
+        gap: auto;
+    }
+    .header__inner {
+        padding: 30px 0;
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        justify-content: space-between;
+    }
+    .breadcrumbs ul {
+        padding-bottom: 40px;
+      }
+    .teggs {
+        gap: 8px;
+        justify-content: flex-start;
+    }
+    .teggs li {
+        display: flex;
+        padding: 6px 8px;
+        border-radius: 24px;
+        border: 1px solid #C1C5CD;
+        width: fit-content !important;
+        height: 32px;
+        color: #333;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .footer__menu {
+        gap: 30px;
+    }
+    .footer__form-form {
+        max-width: 450px;
+    }
+    .btn__bottom-wrapper {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .setka {
+        column-gap: 24px;
+      }
+      .blog-title-img {
+        width: 100%;
+        height: 100%;
+      }  
+      .promo {
+        display: none;
+      }
+      .create-line-content {
+        display: none;
+      }
+      .breadcrumbs__tegs {
+        display: none;
+      }
+      .main_content::before {
+        display: none;
+      }
+      .content {
+        margin-bottom: 71px;
+      }
+}
+    
+@media screen and (max-width: 768px) {
+    .burger-menu {
+		display: block;
+	}
+	.menu {
+		display: none;
+	}
+    .nav__btn-link {
+        display: none;
+    }
+      .card___card > button.card:nth-child(1) {
+        grid-column: 1 / 7; 
+      }
+      .card___card > button.card:nth-child(2) {
+        grid-column: 1 / 7; 
+      }
+      .card___card > button.card:nth-child(n+3) {
+        grid-column: 1 / 4; 
+      }
+      .card___card > button.card:nth-child(n+4) {
+        grid-column: 4 / 7; 
+      }
+      .card___card > button.card:nth-child(n+5) {
+        grid-column: 1 / 4; 
+      }
+      .card___card > button.card:nth-child(n+6) {
+        grid-column: 4 / 7; 
+      }
+      .card___card > button.card:nth-child(n+7) {
+        grid-column: 1 / 4; 
+      }
+      .card___card > button.card:nth-child(n+8) {
+        grid-column: 4 / 7; 
+      }
+      .header__inner {
+        padding: 20px 0;
+      } 
+      .btn__bottom-wrapper {
+        margin-top: 33px;
+        margin-bottom: 55px;
+    }
+    .footer {
+        padding: 35px 20px 23px;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 26px;
+    }   
+    .footer__menu {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .footer__form-form {
+        width: 100%;
+        margin: 0 8px;
+    }
+    .footer__form {
+        margin: 8px 0;
+    }
+    .setka {
+      display: flex;
+      flex-direction: column;
+    }
+    .aside {
+      grid-area: aside;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 480px 248px;
+      gap: 16px;
+      margin-bottom: 59px;
+    }
+    
+    .aside__card-1, .aside__card-2, .aside__card-3, .aside__card-4 {
+      width: 100%;
+      height: 100%;
+    }
+    .aside__card-3 {
+      background-image: url(../img/aside-card-5.svg);
+      background-repeat: no-repeat;
+    }
+    .aside__card-1 {
+      padding: 24px;
+      gap: 11px;
+    }
+    .aside__card-22 {
+      padding: 16px 28px 16px;
+    }
+    .aside__card-2 {
+      padding: 24px;
+    }
+    .aside__card__text-2 {
+      margin-bottom: 16px;
+    }
+    .aside__card-4 {
+      gap: 16px;
+      padding: 24px 21px 4px;
+      background: url(../img/aside-card-6.svg);
+    }
+}
+@media screen and (max-width: 425px) {
+    .card___card > button.card {
+        grid-column: 1 / -1;
+      }
+      .card___card > button.card:nth-child(2) {
+        grid-column: 1 / 7; 
+      }
+      .card___card > button.card:nth-child(n+3) {
+        grid-column: 1 / 7;
+      }
+      .card___card > button.card:nth-child(n+4) {
+        grid-column: 1 / 7;
+      }
+      .card___card > button.card:nth-child(n+5) {
+        grid-column: 1 / 7;
+      }
+      .card___card > button.card:nth-child(n+6) {
+        grid-column: 1 / 7;
+      }
+      .card___card > button.card:nth-child(n+7) {
+        grid-column: 1 / 7;
+      }
+      .card___card > button.card:nth-child(n+8) {
+        grid-column: 1 / 7;
+      }
+
+      .footer {
+        padding: 35px 20px 90px;
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+        }   
+        .footer__menu {
+            justify-content: space-between;
+        }
+        .footer__form-form {
+            width: 100%;
+            margin: 0;
+        }
+        .footer__form {
+            margin: 0;
+        }
+        .form__btn {
+            display: none;
+        }
+        .copy__nav-list {
+            display: flex;
+            flex-direction: column;
+        }
+        .input {
+            border-radius: 4px;
+            margin: 8px 0;
+        }
+        .copy__nav-list {
+            gap: 20px;
+        }
+        .sk-logo {
+            margin-bottom: 20px;
+        }
+        .btn__bottom-wrapper {
+            margin-top: 28px;
+            margin-bottom: 55px;
+        }
+        .teggs {
+            display: flex;
+            overflow-x: auto;
+            list-style-type: none;
+            white-space: nowrap;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            padding-left: 0;
+            scroll-padding: 20px;
+            scroll-snap-type: x mandatory;
+            gap: 1rem;
+          }
+          
+          .teggs::-webkit-scrollbar {
+            display: none;
+          }
+          
+          .teggs li {
+            scroll-snap-align: start;
+            box-sizing: border-box;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.3s;
+          } 
+          .footer__form {
+            margin: 0;
+            width: 100%;
+        }
+        .setka {
+          display: flex;
+          flex-direction: column;
+        }
+        .aside {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 60px;
+        }
+        .article__to {
+          display: flex;
+          flex-direction: column;
+        }
+        .article {
+          display: flex;
+          flex-direction: column;
+        }
+        .aside__card-3 {
+          background: url(../img/aside-card-7.svg);
+          background-size: cover;
+        }
+        .aside__card-4 {
+          background-repeat: no-repeat;
+          background-position: right bottom;
+        }
+        .article__img {
+          width: 100%;
+          height: 100%;
+        }
+}
+
